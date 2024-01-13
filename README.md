@@ -1,6 +1,10 @@
+## Rust TO-DO app
+
+Another Rust pet project started from the series of [Jeremy Chone](https://www.youtube.com/watch?v=VIig9IcQ-w8&list=PL22QEtzSG4EUDm9sVwqoOHCgWV4tTYfvk&index=15)
+
 Rust Programming Web Development Tutorial for building a simple Web Application, todoMVC, from scratch with WARP, SQLX, Database (PostgreSQL), and Native Web Components.
 
-YouTube tutorials: 
+YouTube tutorials:
 
 - Part 1 (database / model access) - https://youtu.be/VIig9IcQ-w8
 - Part 2 (web / warp filters) - https://youtu.be/plKzUo8F6Mg
@@ -24,7 +28,7 @@ cargo run -- ../frontend/web-folder
 - Those terminals can be part of the VSCode terminals
 - Watch commands below for live development
 
-## Dev Test 
+## Dev Test
 
 ```sh
 # Test for model
@@ -52,8 +56,9 @@ npm build -- -w
 # Start the database
 docker run --rm -p 5432:5432 -e "POSTGRES_PASSWORD=postgres" --name pg postgres:14
 
-# optional psql (other terminal) 
+# optional psql (other terminal)
 docker exec -it -u postgres pg psql
 ```
 
 ## License - MIT OR Apache-2.0
+
